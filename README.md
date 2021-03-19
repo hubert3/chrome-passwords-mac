@@ -3,17 +3,15 @@ chrome-passwords-mac
 
 Forked from https://github.com/mooredh/chrome-passwords-mac
 
-This python script decrypts and prints the website passwords saved by Chrome on Mac
+This python script decrypts and prints the website passwords saved by Chrome on Mac.
 
-It can also update all passwords matching a certain base password to a new password in the Chrome DB.
+It can also update all passwords matching a certain base password to a new password in the Chrome password DB.
 
 Working as of 2021-03-19 with: 
 
-Mac OS Big Sur 11.2.3
-
-Chrome 89.0.4389.90 (Official Build) (x86_64)
-
-Python 3.9.2 (installed from homebrew)
+* Mac OS Big Sur 11.2.3
+* Chrome 89.0.4389.90 (Official Build) (x86_64)
+* Python 3.9.2 (installed from homebrew)
 
 Instructions
 ------------
@@ -28,9 +26,9 @@ Run:
 
 To dump your Chrome passwords and page through the output with colours.
 
-Use -b <base password> to show URLs and passwords which contain this base password
+Use `-b <base password>` to show URLs and passwords which contain this base password
 
-Use -b <base password> together with -n <new password> to update all matching passwords to the specified new password.
+Use `-b <base password>` together with `-n <new password>` to update all matching passwords to the specified new password.
 
 ```% ./getPassword-mac.py -h
 usage: getPassword-mac.py [-h] [-f [FILE]] [-b [BASE]] [-n [NEW]]
