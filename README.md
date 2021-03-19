@@ -9,7 +9,7 @@ Quit Chrome before running the script. You will be asked to authenticate with yo
 
 Working as of 2021-03-19 with Mac OS Big Sur 11.2.3, Chrome 89.0.4389.90 (Official Build) (x86_64), Python 3.9.2 installed from homebrew
 
-% ./getPassword-mac.py -h
+```% ./getPassword-mac.py -h
 usage: getPassword-mac.py [-h] [-f [FILE]] [-b [BASE]] [-n [NEW]]
 
 Decrypt and update Chrome saved passwords for websites
@@ -24,3 +24,4 @@ optional arguments:
                         New password to set for all entries matching base password
 
 
+```
