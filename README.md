@@ -7,14 +7,18 @@ This python script decrypts and prints the website passwords saved by Chrome on 
 
 It can also update all passwords matching a certain base password to a new password in the Chrome password DB.
 
-Working as of 2021-03-19 with: 
+Working as of 2021-04-16 with: 
 
 * Mac OS Big Sur 11.2.3
-* Chrome 89.0.4389.90 (Official Build) (x86_64)
-* Python 3.9.2 (installed from homebrew)
+* Chrome 90.0.4430.72 (Official Build) (x86_64)
+* Python 3.9.2 (installed from Homebrew)
 
 Instructions
 ------------
+
+`pip3 install pycryptodome`
+
+(Should be installed into /usr/local/lib/python3.9/site-packages/Crypto if using Python 3.9 from Homebrew. If you have an existing lowercase 'crypto' folder here from an older Python crypto module you need to delete this first)
 
 Quit Chrome before running the script. 
 
