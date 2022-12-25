@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3
+#!/usr/bin/python3
 
 import sqlite3, os, binascii, subprocess, base64, sys, hashlib, argparse
 from Crypto.Cipher import AES
